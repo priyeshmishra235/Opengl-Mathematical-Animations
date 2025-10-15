@@ -13,3 +13,16 @@ Galaxy:
 <img width="1920" height="1200" alt="251015_23h18m49s_screenshot" src="https://github.com/user-attachments/assets/610f075d-6599-4908-ab2d-86c08f1bf0da" />
 <img width="1920" height="1200" alt="251015_23h20m05s_screenshot" src="https://github.com/user-attachments/assets/781548ce-2f75-4341-8fc0-ad70bceb90ac" />
 <img width="1920" height="1200" alt="251015_23h20m16s_screenshot" src="https://github.com/user-attachments/assets/33dde269-6fdd-455a-98c2-2d2a28fa60fc" />
+
+## Dependencies
+- GLAD
+- CMake
+
+## Running procedure with CMake
+```bash
+mkdir -p build/
+cd build/
+cmake ..
+cmake --build .
+cd bin
+./AnimOpengl   # Executable name
