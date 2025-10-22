@@ -25,4 +25,4 @@ cd build/
 cmake ..
 cmake --build .
 cd bin
-./AnimOpengl   # Executable name
+./AnimOpengl
